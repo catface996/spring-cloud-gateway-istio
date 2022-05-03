@@ -1,0 +1,10 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: cat-svc
+          uri: http://localhost:9001
+          predicates:
+            - Path=/cat/{segment}
+          filters:
+            - StripPrefix=1
