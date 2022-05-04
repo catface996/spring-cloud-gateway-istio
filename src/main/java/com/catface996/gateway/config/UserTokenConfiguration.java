@@ -18,6 +18,7 @@ public class UserTokenConfiguration {
         Map<String, String> map = new ConcurrentHashMap<>();
         map.put("abc", "123");
         map.put("def", "456");
+        map.put("ghi", "789");
         return map;
     }
 

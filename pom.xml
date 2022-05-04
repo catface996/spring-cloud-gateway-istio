@@ -96,7 +96,7 @@
 				<artifactId>dockerfile-maven-plugin</artifactId>
 				<version>1.3.6</version>
 				<configuration>
-					<repository>catface996/spring-cloud-gateway-istio-${project.artifactId}</repository>
+					<repository>catface996/spring-cloud-gateway-istio</repository>
 				</configuration>
 			</plugin>
         </plugins>

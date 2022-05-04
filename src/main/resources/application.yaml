@@ -2,7 +2,7 @@ spring:
   cloud:
     gateway:
       routes:
-        - id: cat-svc
+        - id: cat-svc-route
           uri: http://localhost:9001
           predicates:
             - Path=/cat/{segment}
